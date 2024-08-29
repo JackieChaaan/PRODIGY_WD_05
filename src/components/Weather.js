@@ -7,8 +7,6 @@ import WeatherBackground from './WeatherBackground';
 
 
 
-
-
 function Weather() {
   const API_KEY = "621d299a0507443597752427241908";
   const [location, setLocation] = useState('Kerala');
