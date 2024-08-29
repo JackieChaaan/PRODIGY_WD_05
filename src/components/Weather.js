@@ -15,7 +15,7 @@ function Weather() {
   
 
   const getWeather = async () => {
-    const API_FORCAST = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&days=10&aqi=yes&alerts=yes`;
+    const API_FORCAST = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${location}&days=10&aqi=yes&alerts=yes`;
 
     try {
       const forcast_response = await axios.get(API_FORCAST);
